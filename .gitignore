@@ -1,0 +1,46 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Log files
+*.log
+
+# User-specific IDE settings
+.idea/
+.vscode/
+
+# Ignore data files
+data/
+
+# Ignore saved models and checkpoints
+saved_models/
+checkpoints/
+
+# Ignore environment-related files
+*.env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any local files you don't want to commit
+local_config.json
+
+# Ignore cached files
+*.cache
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+pytorch/
