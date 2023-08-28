@@ -34,13 +34,13 @@
     {
       "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "I have an issue regarding a case?",
+        "How can i reach the advocate?",
+        "How can i reach lawyer?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Drop your response in ticket",
+        "Create a ticket"
       ]
     },
     {
@@ -57,15 +57,28 @@
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "Time",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How much time to respond back?",
+        "When will lawyer respond back?",
+        "How long would it would take?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "About 2-4 days",
+        "Soon we will contact you"
+      ]
+    },
+    {
+      "tag": "Contact",
+      "patterns": [
+        "How to contact you",
+        "Contact number",
+        "How to find you"
+      ],
+      "responses": [
+        "Contact no 81XXXXXXX",
+        "Call at 81XXXXXXX",
+        "Write a ticket to us"
       ]
     },
     {
