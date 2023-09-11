@@ -65,15 +65,16 @@ class Chatbox {
 
     updateChatText(chatbox) {
         var html = '';
-        this.messages.slice().reverse().forEach(function (item) {
+        this.messages.slice().reverse().forEach(function (item,) {
             if (item.name === "sam") {
-                html += '<div class="messages__item messages__item--visitor">' + item.message;
+                html += '<div class="messages__item messages__item--visitor">' + item.message+'</div>';
             } else {
-                html += '<div class="messages__item messages__item--operator">' + item.message;
+                html += '<div class="messages__item messages__item--operator">' + item.message+'</div>';
             }
         });
 
         const chatmessage = chatbox.querySelector('.chatbox__messages');
+        // Clear existing content
         chatmessage.innerHTML = html;
     }
 }
